@@ -392,7 +392,9 @@ a { color: var(--accent-ink); }
 .bp-cover .poster { position: absolute; inset: 0; width: 100%; height: 100%; }
 .back.on-cover { color: #fff; background: rgba(3,30,42,.4); backdrop-filter: blur(6px); padding: 6px 12px; border-radius: 999px; }
 a.btn { text-decoration: none; color: var(--ink); }
-.bp-head { display: grid; grid-template-columns: auto 1fr auto; gap: 20px; align-items: end; margin-top: -32px; position: relative; }
+.bp-head { display: grid; grid-template-columns: auto 1fr auto; gap: 20px; align-items: start; margin-top: 18px; position: relative; }
+.bp-head > .mono.lg { margin-top: -50px; }
+.bp-head .bp-act { align-self: center; }
 @media (max-width: 760px) { .bp-head { grid-template-columns: auto 1fr; } .bp-head .bp-act { grid-column: 1 / -1; } }
 .bp-head h1 { font-size: clamp(28px, 3.4vw, 42px); font-weight: 800; letter-spacing: -.02em; line-height: 1.05; }
 .bp-head .k { color: var(--ink-2); margin-top: 4px; font-size: 14.5px; display: flex; flex-wrap: wrap; gap: 4px 12px; }
